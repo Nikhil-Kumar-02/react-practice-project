@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.7rem;
+    background-color: rgb(32, 18, 45);
+    color: white;
+}
+
+.header{
+    margin-top: 0px;
+    background-color: rgb(99, 79, 117);
+    width: 100%;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.categories{
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+    margin-top: 0.4rem;
+}
+
+div.categories > * {
+    background-color: rgb(42, 42, 86);
+    padding: 3px;
+    height: 1.2rem;
+    width: max-content;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.categories > *:hover{
+    border: 1px solid white;
+}
+
+
+.image{
+    width: 8rem;
+}
+
+.CardWrapper{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 9rem;
+    margin: 1rem;
+    font-size: 0.5rem;
+    background-color: rgb(99, 79, 117);
+}
+
+.title{
+    padding: 0.3rem;
+}
+
+.description{
+    padding: 0.3rem;
+    cursor: pointer;
+}
+
+.allCardsHolder{
+    /* background-color: pink; */
+    justify-content: center;
+    width: 36rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
